@@ -1,0 +1,98 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color:black;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 400px;
+  background-color:white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+.inpcontainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 200px;
+  margin-right: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.addbtn {
+  padding: 10px 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.tasks {
+  padding: 0;
+  margin: 0;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 12px;
+  background-color: #f7f4f4;
+  border: 1px solid black;
+  border-radius: 5px;
+  list-style: none;
+  margin-bottom: 10px;
+  color: black;
+  width: 265px;
+  margin-left: 55px;
+}
+
+.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+}
+
+.check {
+  color: green;
+  cursor: pointer;
+  font-size: 18px;
+  transition: transform 0.2s;
+}
+
+.check:hover {
+  transform: scale(1.1);
+}
+
+.trash {
+  color: red;
+  cursor: pointer;
+  font-size: 18px;
+  transition: transform 0.2s;
+}
+
+.trash:hover {
+  transform: scale(1.1);
+}
