@@ -1,4 +1,4 @@
-(images/output.png)
+![Output screenshort](images/output.png)
 # TO-DO List App
 A simple to-do list app built with React and Vite. You can add, delete, and manage tasks easily with a clean interface.
 ## Features
